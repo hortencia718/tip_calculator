@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:450px;
+    
+    background-color: rgb(254, 255, 255);
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(135, 136, 133, 0.851), 0 3px 6px rgba(0, 0, 0, 0.23);
+    /* text-shadow:0 1px rgb(227, 243, 48); */
+}
+
+
+ h1 {
+   
+    background-color: #b6ebf2;
+    padding: 10px 0;
+    border-radius: 18px;
+    font-size: 2rem; 
+ } 
+
+ p{
+     color:tomato;
+ }
+ .control{
+     margin: 25px 0;
+ }
+ input {
+     border: none;
+     outline:none;
+     text-align: center;
+     border-bottom: 1px solid #5e6864;
+     color: #118d24;
+     font-size: 28px;
+     margin-top: 20px;
+ }
+
+
+ select{
+     border: none;
+     outline:none;
+     border: 1px solid #5a5f5d;
+     color: #817979;
+     font-size: 19px;
+     margin-top:20px;
+     padding: 11px 34px;
+     border-radius: 12px;
+     width: 50%;
+ }
+
+
+ button#calculate {
+     color: white;
+     background: rgb(255, 99, 71);
+     border: 1px solid transparent;
+     border-radius: 20px;
+     padding: 14px 29px;
+     margin: 25px;
+     transition: all .3s ease;
+ }
+
+
+ button#calculate:hover {
+     color:rgb(28, 133, 12);
+     border-color:tomato;
+     background: white;
+    
+ }
+
+ .totalTip{
+     background-color:  #b6ebf2;
+     border-radius: 18px;
+     padding: 25px 0 35px;
+ }
+
+ p.tip {
+     font-size: 38px;
+     color:#009855;
+     margin-top: 10px;
+ }
+
+
+/* .calculator_container {
+    background-color: rgb(101, 108, 157);
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(36, 164, 238, 0.851), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 4rem 4rem;
+/* } */
+ 
+/* h1 {
+    margin: 0 0 1rem;
+    text-align: center;
+  
+    text-shadow:0 1px seashell;
+    font-size: 4rem;
+ /* } */ 
+
+/* .form_control {
+    margin: 0.75rem 0;
+    /* padding: 12px; 
+/* }  */ 
+
+/* .form_control input {
+    padding: 12px;
+    width: 100%;
+}
+
+input#bill_value {
+    padding:12px;
+    border-radius: 6px;
+    margin:2px;
+}
+
+.form_control label {
+    display: block;
+    padding: 12px;
+
+}
+
+.calculator_container footer {
+    margin-top:2rem;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+}   */
